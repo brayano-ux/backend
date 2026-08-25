@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/rendezvous")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://frontend-pm86.onrender.com"})
 public class RendezVousController {
 
     private final RendezVousService rendezVousService;
